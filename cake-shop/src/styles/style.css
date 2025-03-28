@@ -1,0 +1,7 @@
+body {
+    background: 
+    linear-gradient(119deg, #CFFFFF 12%, transparent 50%), linear-gradient(31deg, transparent 58%, #FF81F7 110%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }

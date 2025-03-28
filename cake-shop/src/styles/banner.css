@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'bethellen';
+    src: url('../assets/fonts/bethellen_regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'bangers';
+    src: url('../assets/fonts/bangers.ttf') format('truetype');
+}
+
+
+.cs-baner{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.cs-banner-left-div{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.cs-bnr-txt1{
+    font-family: 'bethellen', sans-serif;
+    font-size: 32px;
+}
+.cs-bnr-txt2{
+    font-family: 'bangers', sans-serif;
+    font-size: 80px;
+}
+.cs-banner-left-div button{
+    background-color: #FD9704;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    transition: 0.2s ease-in-out;
+    border: 2px solid #FD9704;
+}
+.cs-banner-left-div button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.2s ease-in-out;
+}

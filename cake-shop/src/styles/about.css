@@ -1,0 +1,17 @@
+.cs-about-section{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.cs-about-right-div p{
+    text-align: left;
+}
+.cs-about-title{
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 1.5rem;
+}
+.cs-about-cnt{
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 1rem;
+}

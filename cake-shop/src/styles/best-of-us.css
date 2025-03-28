@@ -1,0 +1,30 @@
+.cs-best-div p{
+    text-align: right;
+    margin-bottom: 0;
+}
+.cs-best-div p:first-child{
+    font-size: 40px;
+}
+.cs-best-div p:last-child{
+    font-size: 24px;
+}
+.cs-best-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    max-width: 400px;
+    padding: 20px;
+    background: linear-gradient(123deg, #FD9704 42%, #ffff 29% );
+    box-shadow: 10px 10px 30px 0 #cfc9c9;
+}
+.cs-best-of-us-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.cs-best-div img{
+    max-width: 5rem;
+}
