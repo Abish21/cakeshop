@@ -16,7 +16,7 @@ class Product extends Component{
     }
 
     componentDidMount(){
-        axios.get('http://localhost/Api/getdata.php')
+        axios.get('http://localhost/cakeshop-API/getdata.php')
         .then(reponse => {
             this.setState({
                 cakes: reponse.data
@@ -89,7 +89,7 @@ class Product extends Component{
                             cakes.map((cake, index) => (
                                 <div className='product-card' key={index}>
                                     <div className='product-card-image'>
-                                        <img src={`http://localhost/Api/uploads/${cake.image}`} alt="Product" />
+                                        <img src={`http://localhost/cakeshop-API/uploads/${cake.image}`} alt="Product" />
                                     </div>
                                     <div className='product-card-details'>
                                         <p className='product-name'>{cake.name}</p>
