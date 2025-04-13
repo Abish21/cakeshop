@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'cairo';
+    src: url('../assets/fonts/cairo.ttf') format('truetype');
+}
+
 .cs-product-section{
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -8,6 +13,7 @@
     align-items: center;
     flex-direction: row;
     gap: 1rem;
+    margin-bottom: 5rem;
 }
 .cs-search-input{
     width: 40rem;
@@ -27,3 +33,124 @@
     justify-content: center;
     align-items: center;
 }
+.cs-product-and-list-section{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.cs-product-filter{
+    width: 30%;
+    background-color: #FBDAE1;
+    border-radius: 0 30px 30px 0;
+}
+.cs-products-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    background-color: #FBDAE1;
+    border-radius: 30px 0 0 30px;
+    align-content: flex-start;
+}
+.cs-filter-title{
+    font-family: 'cairo', sans-serif;
+    font-size: 32px;
+}
+.filter{
+    margin-left: 20%;
+}
+.title{
+    font-family: 'cairo', sans-serif;
+    font-size: 32px;
+    text-align: start;
+    margin-bottom: 0.5rem;
+}
+.filter label{
+    font-family: 'cairo', sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+    user-select: none;
+}
+.filter input{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+.checkbox-input-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.checkbox-input-main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 3rem;
+    margin-bottom: 1rem;
+}
+.cs-product-filter{
+    padding: 30px;
+}
+.filter input {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #fbdae1;
+    position: relative;
+    border: 2px solid black;
+}
+.filter input:checked {
+    background-color: #fd9704;
+}
+.filter input:checked::after {
+    content: '✔';
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+}
+.cs-products-list{
+    padding: 30px;
+}
+.product-card{
+    width: 240px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 20px;
+    max-width: 15rem;
+    margin-right: 40px;
+}
+.product-card-image{
+    width: fit-content;
+    margin: 0 auto;
+}
+.product-card-image img{
+    width: 5rem;
+}
+.product-card-details{
+    margin-top: 10px;
+}
+.product-name{
+    font-family: 'cairo', sans-serif;
+    font-size: 16px;
+    text-align: start;
+    font-weight: 700;
+}
+.product-amount{
+    font-family: 'cairo', sans-serif;
+    font-size: 14px;
+    text-align: start;
+    margin-bottom: 10px;
+}
+.product-description{
+    font-family: 'cairo', sans-serif;
+    font-size: 14px;
+    text-align: start;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+  

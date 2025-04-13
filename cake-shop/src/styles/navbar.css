@@ -14,12 +14,24 @@
 .cs-nav-items a{
     font-size: 20px;
     font-weight: 600;
-    border-bottom: 2px solid;
-    border-color: transparent;
     cursor: pointer;
+    position: relative;
 }
-.cs-nav-items a:hover{
-    border-color: black;
+.cs-nav-items a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -3px;
+    transition: 0.2s ease; 
+}
+.cs-nav-items a:hover::after{
+    transition: 0.2s ease;
+    width: 100%;
+
 }
 .cs-sign-cart-div{
     display: flex;
@@ -27,11 +39,22 @@
     gap: 1rem;
 }
 .cs-sign-cart-div a{
-    border-bottom: 2px solid;
-    border-color: transparent;
     font-weight: 600;
     cursor: pointer;
+    position: relative;
 }
-.cs-sign-cart-div a:hover{
-    border-color: black;
+.cs-sign-cart-div a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -3px;
+    transition: 0.2s ease; 
+}
+.cs-sign-cart-div a:hover::after{
+    transition: 0.2s ease;
+    width: 100%;
 }
